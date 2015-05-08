@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chess</string>
+    <string name="action_settings">Settings</string>
+    <string name="play_button">New Game</string>
+    <string name="chess_title">Chess</string>
+    <string name="playback_button">Playback</string>
+    
+    <!-- Pieces -->
+    <string name = "black_rook">Black Rook</string>
+    <!-- Chessboard squares -->
+    <string name = "a8">Column A, Row 8</string>
+    <string name = "b8">Column B, Row 8</string>
+    <string name = "c8">Column C, Row 8</string>
+    <string name = "d8">Column D, Row 8</string>
+    <string name = "e8">Column E, Row 8</string>
+    <string name = "f8">Column F, Row 8</string>
+    <string name = "g8">Column G, Row 8</string>
+    <string name = "h8">Column H, Row 8</string>
+    <string name = "a7">Column A, Row 7</string>
+    <string name = "b7">Column B, Row 7</string>
+    <string name = "c7">Column C, Row 7</string>
+    <string name = "d7">Column D, Row 7</string>
+    <string name = "e7">Column E, Row 7</string>
+    <string name = "f7">Column F, Row 7</string>
+    <string name = "g7">Column G, Row 7</string>
+    <string name = "h7">Column H, Row 7</string>
+    <string name = "a6">Column A, Row 6</string>
+    <string name = "b6">Column B, Row 6</string>
+    <string name = "c6">Column C, Row 6</string>
+    <string name = "d6">Column D, Row 6</string>
+    <string name = "e6">Column E, Row 6</string>
+    <string name = "f6">Column F, Row 6</string>
+    <string name = "g6">Column G, Row 6</string>
+    <string name = "h6">Column H, Row 6</string>
+    <string name = "a5">Column A, Row 5</string>
+    <string name = "b5">Column B, Row 5</string>
+    <string name = "c5">Column C, Row 5</string>
+    <string name = "d5">Column D, Row 5</string>
+    <string name = "e5">Column E, Row 5</string>
+    <string name = "f5">Column F, Row 5</string>
+    <string name = "g5">Column G, Row 5</string>
+    <string name = "h5">Column H, Row 5</string>
+    <string name = "a4">Column A, Row 4</string>
+    <string name = "b4">Column B, Row 4</string>
+    <string name = "c4">Column C, Row 4</string>
+    <string name = "d4">Column D, Row 4</string>
+    <string name = "e4">Column E, Row 4</string>
+    <string name = "f4">Column F, Row 4</string>
+    <string name = "g4">Column G, Row 4</string>
+    <string name = "h4">Column H, Row 4</string>
+    <string name = "a3">Column A, Row 3</string>
+    <string name = "b3">Column B, Row 3</string>
+    <string name = "c3">Column C, Row 3</string>
+    <string name = "d3">Column D, Row 3</string>
+    <string name = "e3">Column E, Row 3</string>
+    <string name = "f3">Column F, Row 3</string>
+    <string name = "g3">Column G, Row 3</string>
+    <string name = "h3">Column H, Row 3</string>
+    <string name = "a2">Column A, Row 2</string>
+    <string name = "b2">Column B, Row 2</string>
+    <string name = "c2">Column C, Row 2</string>
+    <string name = "d2">Column D, Row 2</string>
+    <string name = "e2">Column E, Row 2</string>
+    <string name = "f2">Column F, Row 2</string>
+    <string name = "g2">Column G, Row 2</string>
+    <string name = "h2">Column H, Row 2</string>
+    <string name = "a1">Column A, Row 1</string>
+    <string name = "b1">Column B, Row 1</string>
+    <string name = "c1">Column C, Row 1</string>
+    <string name = "d1">Column D, Row 1</string>
+    <string name = "e1">Column E, Row 1</string>
+    <string name = "f1">Column F, Row 1</string>
+    <string name = "g1">Column G, Row 1</string>
+    <string name = "h1">Column H, Row 1</string>
+    <string name="undo_button">Undo</string>
+    <string name="AI_button">Random Move</string>
+    <string name="draw_button">Draw</string>
+    <string name="resign_button">Resign</string>
+    <string name="playback_play_button">Play</string>
+    <string name="back_button">Back</string>
+    <string name="prev_button">Prev</string>
+    <string name="next_button">Next</string>
+    <string name="sort_by_title_button">SortByTitle</string>
+    <string name="sort_by_date_button">SortByDate</string>
+
+</resources>
