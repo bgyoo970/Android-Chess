@@ -665,6 +665,7 @@ public class Play extends Activity implements Serializable{
 		}
 	}
 	
+	@SuppressWarnings("deprecation")
 	@SuppressLint("NewApi")
 	public void updateImageBoard() {
 		Piece currPiece;
@@ -677,36 +678,36 @@ public class Play extends Activity implements Serializable{
 				if (board[i][j] != null) {
 					
 					switch (currPiece.pieceName) {
-					case "wp": currButton.setImageDrawable(wPawn); break;
-					case "wR": currButton.setImageDrawable(wRook); break;
-					case "wN": currButton.setImageDrawable(wKnight); break;
-					case "wB": currButton.setImageDrawable(wBishop); break;
-					case "wK": currButton.setImageDrawable(wKing); break;
-					case "wQ": currButton.setImageDrawable(wQueen); break;
-					case "bp": currButton.setImageDrawable(bPawn); break;
-					case "bR": currButton.setImageDrawable(bRook); break;
-					case "bN": currButton.setImageDrawable(bKnight); break;
-					case "bB": currButton.setImageDrawable(bBishop); break;
-					case "bK": currButton.setImageDrawable(bKing); break;
-					case "bQ": currButton.setImageDrawable(bQueen); break;
-					
-					default: currButton.setImageDrawable(null); break;
+						case "wp": currButton.setImageDrawable(wPawn); break;
+						case "wR": currButton.setImageDrawable(wRook); break;
+						case "wN": currButton.setImageDrawable(wKnight); break;
+						case "wB": currButton.setImageDrawable(wBishop); break;
+						case "wK": currButton.setImageDrawable(wKing); break;
+						case "wQ": currButton.setImageDrawable(wQueen); break;
+						case "bp": currButton.setImageDrawable(bPawn); break;
+						case "bR": currButton.setImageDrawable(bRook); break;
+						case "bN": currButton.setImageDrawable(bKnight); break;
+						case "bB": currButton.setImageDrawable(bBishop); break;
+						case "bK": currButton.setImageDrawable(bKing); break;
+						case "bQ": currButton.setImageDrawable(bQueen); break;
+						
+						default: currButton.setImageDrawable(null); break;
 					}
 					// This small block fixes some weird formatting error with the size of the background tile color.
 					if (((i+j) % 2) == 1)
-						currButton.setBackground(lightbg);
+						currButton.setBackgroundDrawable(lightbg);
 					else
-						currButton.setBackground(darkbg);
+						currButton.setBackgroundDrawable(darkbg);
 				}
 				// If no piece exists at the current spot, just set the background to the color of the board.
 				else if (board[i][j] == null) {
 					if (((i+j) % 2) == 1) {
 						currButton.setImageDrawable(null);
-						currButton.setBackground(lightbg);
+						currButton.setBackgroundDrawable(lightbg);
 					}
 					else {
 						currButton.setImageDrawable(null);
-						currButton.setBackground(darkbg);
+						currButton.setBackgroundDrawable(darkbg);
 					}
 				}
 			}

@@ -132,6 +132,7 @@
                 android:contentDescription="@string/f7"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
+                android:background="@drawable/light"
                 android:src="@drawable/black_pawn" />
 
             <ImageButton
